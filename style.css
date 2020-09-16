@@ -1,0 +1,13 @@
+.header{
+    background-color:lavender;
+    color:black;
+    padding:5px;
+    padding-right: 30px;
+}
+
+.footer{
+    background-color:darkgrey;
+    color:black;
+    padding:5px;
+    padding-right: 30px;
+}
