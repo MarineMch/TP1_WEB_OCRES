@@ -1,13 +1,66 @@
+.navigation{
+    color:black;
+}
+
 .header{
-    background-color:lavender;
+    background-color:white;
     color:black;
     padding:5px;
     padding-right: 30px;
 }
 
-.footer{
-    background-color:darkgrey;
-    color:black;
-    padding:5px;
-    padding-right: 30px;
+body {   
+    padding: 0px;   
+    margin: 0px;   
+    background: rgba(64,128,128,0.3); 
+}
+
+/* Fenetre*/
+#fenetre{
+    width:470px;
+    margin:0 auto;
+    margin-top:3%;
+}
+
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+/*Cadres pour les zones de texte*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/*Bouton Envoyer */
+input[id=submit] {
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Bouton Envoyer quand on passe la souris dessus*/
+input[id=submit]:hover {
+    background-color: white;
+    color: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.6);
 }
